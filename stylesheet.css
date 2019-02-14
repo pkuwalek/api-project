@@ -1,0 +1,16 @@
+body {
+    background-image: url(/9-trump.jpg);
+    background-size: 50%;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
