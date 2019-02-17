@@ -8,9 +8,62 @@ body {
 
 h1 {
     font-family: 'Permanent Marker', cursive;
+    font-size: 270%;
+    transform: rotate(-5deg)
+                skew(-5deg);
+}
+
+.quotediv {
+    position: absolute;
+    bottom: 70px;
+    height: auto;
+    width: 50%;
+    display: block;
+    margin-left: 365px;
+    background-color: white;
+    border: 3px solid #046eff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px red;
+}
+
+#quote {
+    font-size: 120%;
+}
+
+#btn {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    position: absolute;
+    right: 150px;
+    background: red;
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 15px black;
+    outline: none;
+    transition: 0.5s;
+    text-shadow: 0 0 10px black;
+}
+
+#btn:hover {
+    background-color: #e90000;
+}
+
+#btn:active {
+  background-color: #e90000;
+  transform: translateY(4px);
 }
 
 footer {
     position: fixed;
     bottom: 0;
+    font-size: 80%;
+}
+
+a {
+    color: black;
 }
