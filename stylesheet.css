@@ -10,7 +10,7 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 270%;
     transform: rotate(-5deg)
-                skew(-5deg);
+               skew(-5deg);
 }
 
 .quotediv {
@@ -18,8 +18,8 @@ h1 {
     bottom: 70px;
     height: auto;
     width: 50%;
-    display: block;
-    margin-left: 365px;
+    margin-left: -26%;
+    left: 50%;
     background-color: white;
     border: 3px solid #046eff;
     padding: 10px;
@@ -35,7 +35,7 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 3rem;
     position: absolute;
-    right: 150px;
+    right: 15%;
     background: red;
     border-radius: 50%; 
     width: 200px;
@@ -66,4 +66,34 @@ footer {
 
 a {
     color: black;
+}
+
+@media screen and (max-width:800px) {
+    h1 {
+        width: 90%;
+    } 
+    body {
+        background-image: none;
+    }
+    .quotediv {
+        position: fixed;
+        width: 90%;
+        margin: auto;
+        left: 5%;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+    #quote {
+        font-size: 80%;
+    }
+    #btn {
+        position: static;
+        width: 150px;
+        height: 150px;
+        margin: 15%;
+        font-size: 2.5rem;
+    }
+    #imgcredit {
+        display: none;
+    }
 }
