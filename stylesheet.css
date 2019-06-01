@@ -1,5 +1,5 @@
 body {
-    background-image: url(/9-trump.jpg);
+    background-image: url(9-trump.jpg);
     background-size: 50%;
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -90,8 +90,14 @@ a {
         position: static;
         width: 150px;
         height: 150px;
-        margin: 15%;
+        margin-left: 30%;
         font-size: 2.5rem;
+    }
+    .btndiv {
+        position: fixed;
+        margin: auto;
+        width: 90%;
+        align-content: center;
     }
     #imgcredit {
         display: none;
